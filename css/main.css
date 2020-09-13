@@ -29,7 +29,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #cca652;
 }
 header .header-icons-container .iconsAx {

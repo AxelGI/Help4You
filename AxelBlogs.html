@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <section class="header-icons-container">
+        <section class="header-icons-containerA">
             <div class="iconsAx">
                 <a href="https://www.facebook.com/axel.velez.56"><span class="flaticon-001-facebook"></span></a>
                 <a href="https://wa.me/+525562027115"><span class="flaticon-003-whatsapp"></span></a>
@@ -23,11 +23,11 @@
             </div>
         </section>
         <nav>
-            <section class="nav-logoAx-container">
-                <a href="/"><img src="img/LogoAtzel.png" alt="Logo de mi blog" > </a>
-            </section>
-            <section class="profile-link">
+            <section class="profile-linkA">
                 <a href="blogs.html">Regresar a Help4You</a>
+            </section>
+            <section class="nav-logoAx-containerA">
+                <a href="/"><img src="img/LogoAtzel.png" alt="Logo de mi blog" > </a>
             </section>
         </nav>
     </header>
@@ -66,5 +66,66 @@
     <footer>
         <p>"Mucho gusto, siempre arriba"<br> <strong>-Axel G.</strong></p>
     </footer>
+    <style>
+        header .header-icons-containerA {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #cca652;
+}
+header .header-icons-containerA .iconsAx {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+header .iconsAx span {
+    color:#4a8522;
+}
+header .header-icons-containerA .iconsAl {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+        nav .profile-linkA {
+            grid-column: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+        }
+        nav .profile-linkA a {
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 50px;
+            background-color: #000267;
+            color: whitesmoke;
+        }
+        nav .nav-logoAx-containerA {
+            text-align: center;
+            grid-column: 3;
+        }
+        nav .nav-logoAx-containerA img {
+            width: 75px;
+            margin-top: 10px;
+        }
+    @media (max-width: 900px) {
+        nav .profile-linkA a {
+        font-size: 15px;
+    }
+}
+    </style>
 </body>
 </html>
